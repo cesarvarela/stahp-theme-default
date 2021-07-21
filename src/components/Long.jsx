@@ -64,7 +64,7 @@ export default function Long() {
                     <Stack anchor="center" fill guidingChild="last">
                         <Box align="center" justify="center" direction="column">
                             <Text size="xlarge" weight="bold">
-                                It's time for a long break! 🙏
+                                It's time for a long break!
                             </Text>
                             <Text margin="xsmall" size="small">
                                 Time left: {left} seconds

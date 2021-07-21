@@ -1,5 +1,5 @@
 {
-  "name": "@cesarvarela/stahp-theme-default",
+  "name": "stahp-theme-default",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -9,10 +9,12 @@
     "styled-components": "^5.3.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "rimraf": "^3.0.2"
   },
   "scripts": {
     "start": "parcel src/long.html",
+    "prebuild": "rimraf dist",
     "build": "parcel build src/long.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
